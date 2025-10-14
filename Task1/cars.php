@@ -19,7 +19,7 @@
     <h1>Cars Table</h1>
         
         <?php if (mysqli_num_rows($result) > 0) {
-            echo "<table border = 1>
+            echo "<table border = 1, cellpadding= 5>
                 <tr>
                     <th>Car ID</th>
                     <th>Make</th>
